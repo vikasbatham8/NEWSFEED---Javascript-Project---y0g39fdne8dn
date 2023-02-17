@@ -1,1 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  header {
+    position: absolute;
+    left:100px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+  
+  }
+  
+  nav {
+    position: absolute;
+    top: 40px;
+    left: 800px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .newsItem {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+     ;
+  }
+  
+  #saveButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #likeButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .img{
+    height: 200px;
+    width: 300px;
+  }
+  
+  #box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+  }
+  
+  #innerbox{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #loadSavedButton{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+  }
+  
+  #loadNewsButton{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+  }
+  
+  #categorySelect{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  #header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  h3{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-size: 45px;
+    color: white;
+  }
+  h2{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    font-size: 35px;
+    color: white;
+  }
 
